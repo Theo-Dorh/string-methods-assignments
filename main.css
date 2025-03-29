@@ -20,9 +20,10 @@ body {
     margin: 90px auto 30px;
 }
 
-.question-display {
+.question-display div {
     display: flex;
-    flex-direction: 1;
+    width: 100%;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -43,3 +44,23 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+input {
+    flex: 1;
+    border: 0.5px solid;
+    outline: none;
+    background: transparent;
+    font-size: 17px;
+    color: black;
+    width: 100%;
+    border-radius: 8px;;
+}
+
+/* /* .back div {
+    /* display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+*/
